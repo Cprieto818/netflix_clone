@@ -1,3 +1,4 @@
+/* -------------------------------header-------------------------------- */
 *{
     margin: 0;
     padding: 0;
@@ -104,4 +105,43 @@ nav button{
     font-size: 16px;
     cursor: pointer;
     padding: 15px 30px;
+}
+/* ----------------------------------end of header ------------------------------*/
+
+/* ----------------------------------features start------------------------------- */
+
+
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
